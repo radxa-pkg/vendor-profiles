@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+case $1 in
+	remove)
+		rm /etc/apt/preferences.d/librga2
+		;;
+esac
+
+exit 0

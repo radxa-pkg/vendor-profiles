@@ -1,0 +1,223 @@
+Source: vendor-profiles
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: libs
+Priority: optional
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               pandoc,
+
+Package: task-rockchip-chromium
+Architecture: all
+Priority: optional
+Depends: chromium-x11,
+         libc++1,
+         rockchip-chromium-x11-utils,
+         ${misc:Depends},
+Description: Metapackages for Rockchip Chromium port
+ This package provides Rockchip Chromium port and
+ several important dependencies.
+
+Package: task-rockchip-drm
+Architecture: all
+Priority: optional
+Depends: libdrm-cursor,
+         libkms1,
+         ${misc:Depends},
+Description: Metapackages for Rockchip DRM
+ This package provides Rockchip DRM.
+
+Package: task-rockchip-gstreamer
+Architecture: all
+Priority: optional
+Depends: gir1.2-gst-plugins-bad-1.0,
+         gir1.2-gst-plugins-base-1.0,
+         gir1.2-gstreamer-1.0,
+         gstreamer1.0-alsa,
+         gstreamer1.0-gl,
+         gstreamer1.0-gtk3,
+         gstreamer1.0-libav,
+         gstreamer1.0-opencv,
+         gstreamer1.0-plugins-bad,
+         gstreamer1.0-plugins-base-apps,
+         gstreamer1.0-plugins-base,
+         gstreamer1.0-plugins-good,
+         gstreamer1.0-plugins-ugly,
+         gstreamer1.0-pulseaudio,
+         gstreamer1.0-qt5,
+         gstreamer1.0-tools,
+         gstreamer1.0-x,
+         libgstreamer-gl1.0-0,
+         libgstreamer-opencv1.0-0,
+         libgstreamer-plugins-bad1.0-0,
+         libgstreamer-plugins-base1.0-0,
+         libgstreamer1.0-0,
+         ${misc:Depends},
+Recommends: gstreamer1.0-plugins-bad-apps,
+            gstreamer1.0-wpe,
+Description: Metapackages for Rockchip GStreamer
+ This package provides Rockchip GStreamer.
+
+Package: task-rockchip-mpp
+Architecture: all
+Priority: optional
+Depends: gstreamer1.0-rockchip1,
+         librga2,
+         librockchip-mpp1,
+         librockchip-vpu0,
+         ${misc:Depends},
+Description: Metapackages for Rockchip MPP
+ This package provides Rockchip MPP.
+
+Package: task-rockchip-sound
+Architecture: all
+Priority: optional
+Depends: rockchip-alsa-config,
+         rockchip-pulseaudio-config,
+         radxa-alsa-config,
+         ${misc:Depends},
+Description: Metapackages for Rockchip sound config
+ This package provides Rockchip sound config and Radxa
+ specific ALSA config.
+
+Package: task-rockchip-v4l
+Architecture: all
+Priority: optional
+Depends: libdvbv5-0,
+         libv4l-0,
+         libv4l-rkmpp,
+         libv4l2rds0,
+         libv4lconvert0,
+         v4l-utils,
+         ${misc:Depends},
+Description: Metapackages for Rockchip Video4Linux
+ This package provides Rockchip Video4Linux.
+
+Package: task-rockchip-xorg
+Architecture: all
+Priority: optional
+Depends: xserver-xorg-core,
+         xserver-xorg-legacy,
+         radxa-xorg-wrapper,
+         radxa-touchscreen-utils,
+         radxa-sddm-theme,
+         ${misc:Depends},
+Description: Metapackages for Rockchip X.Org
+ This package provides Rockchip X.Org.
+
+Package: task-rockchip
+Architecture: all
+Priority: optional
+Depends: rockchip-udev,
+         task-rockchip-chromium,
+         task-rockchip-drm,
+         task-rockchip-gstreamer,
+         task-rockchip-mpp,
+         task-rockchip-sound,
+         task-rockchip-v4l,
+         task-rockchip-xorg,
+         ${misc:Depends},
+Description: Metapackages for common Rockchip vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3308
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Metapackages for common rk3308 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3328-camera
+Architecture: all
+Priority: optional
+Depends: rkisp-engine,
+         rockchip-iqfiles,
+         ${misc:Depends},
+Description: Metapackages for RK3328 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK3328 camera support.
+
+Package: task-rk3328
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         task-rk3328-camera,
+         libmali-utgard-450-r7p0-x11 | libmali-utgard-450-r7p0-x11-gbm,
+         ${misc:Depends},
+Description: Metapackages for common RK3328 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3399-camera
+Architecture: all
+Priority: optional
+Depends: rkisp-engine,
+         rockchip-iqfiles,
+         ${misc:Depends},
+Description: Metapackages for RK3399 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK3399 camera support.
+
+Package: task-rk3399
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         task-rk3399-camera,
+         libmali-midgard-t86x-r18p0-x11 | libmali-midgard-t86x-r18p0-x11-gbm,
+         ${misc:Depends},
+Description: Metapackages for common RK3399 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk356x-camera
+Architecture: all
+Priority: optional
+Depends: camera-engine-rkaiq,
+         rockchip-iqfiles-rk356x,
+         ${misc:Depends},
+Description: Metapackages for RK356X camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK356X camera support.
+
+Package: task-rk356x
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         task-rk356x-camera,
+         libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
+         ${misc:Depends},
+Description: Metapackages for common RK356x vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3588-camera
+Architecture: all
+Priority: optional
+Depends: camera-engine-rkaiq,
+         rockchip-iqfiles,
+         ${misc:Depends},
+Description: Metapackages for RK3588 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK3588 camera support.
+
+Package: task-rk3588
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         task-rk3588-camera,
+         libmali-valhall-g610-g6p0-x11 | libmali-valhall-g610-g6p0-x11-gbm,
+         ${misc:Depends},
+Description: Metapackages for common RK3588 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-amlogic
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Metapackages for common Amlogic vendor packages
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.

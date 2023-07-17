@@ -1,0 +1,10 @@
+/.debhelper
+/debhelper-build-stamp
+/files
+/task-*/
+/rockchip-pulseaudio-config
+/rockchip-udev
+/tmp
+/*.debhelper.log
+/*.postrm.debhelper
+/*.substvars

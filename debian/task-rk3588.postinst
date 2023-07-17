@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+action="$1"
+
+if [ "$action" = configure ]; then
+	cat << EOF > /etc/apt/preferences.d/camera-engine-rkaiq
+Package: camera-engine-rkaiq
+Pin: version 3.0x8.9
+Pin-Priority: 1500
+EOF
+fi
+
+#DEBHELPER#
+
+exit 0
