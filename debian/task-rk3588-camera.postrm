@@ -5,7 +5,7 @@ set -e
 
 case $1 in
 	remove)
-		rm /etc/apt/preferences.d/librga2
+		rm /etc/apt/preferences.d/camera-engine-rkaiq
 		;;
 esac
 
