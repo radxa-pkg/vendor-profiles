@@ -167,6 +167,7 @@ Priority: optional
 Depends: task-rockchip,
          task-rk3399-camera,
          libmali-midgard-t86x-r18p0-x11 | libmali-midgard-t86x-r18p0-x11-gbm,
+         radxa-system-config-rk3399,
          ${misc:Depends},
 Description: Metapackages for common RK3399 vendor packages
  This package provides prebuilt packages from Rockchip that
