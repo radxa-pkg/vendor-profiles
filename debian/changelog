@@ -1,3 +1,11 @@
+vendor-profiles (0.3.1) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Move rkaiq pin to camera package
+  * Add radxa-system-config-rk3399 dependency
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 24 Aug 2023 11:49:12 +0000
+
 vendor-profiles (0.3.0) stable; urgency=medium
 
   * Split from radxa-profiles
