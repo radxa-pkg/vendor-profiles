@@ -1,3 +1,13 @@
+vendor-profiles (0.3.2) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+
+  [ ZHANG Yuntian ]
+  * Add rknn2 support
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 08 Sep 2023 06:54:18 +0000
+
 vendor-profiles (0.3.1) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
