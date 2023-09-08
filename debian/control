@@ -189,6 +189,8 @@ Priority: optional
 Depends: task-rockchip,
          task-rk356x-camera,
          libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
+         rknpu2-rk356x,
+         python3-rknnlite2,
          ${misc:Depends},
 Description: Metapackages for common RK356x vendor packages
  This package provides prebuilt packages from Rockchip that
@@ -210,6 +212,8 @@ Priority: optional
 Depends: task-rockchip,
          task-rk3588-camera,
          libmali-valhall-g610-g6p0-x11 | libmali-valhall-g610-g6p0-x11-gbm,
+         rknpu2-rk3588,
+         python3-rknnlite2,
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
  This package provides prebuilt packages from Rockchip that
