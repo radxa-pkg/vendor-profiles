@@ -1,0 +1,23 @@
+Package: *
+Pin: release a=rockchip-buster-test
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rockchip-buster
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rockchip-bullseye-test
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rockchip-bullseye
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rockchip-bookworm-test
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rockchip-bookworm
+Pin-Priority: 1001
