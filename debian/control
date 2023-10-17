@@ -142,12 +142,21 @@ Description: Metapackages for RK3328 camera packages
  This package provides prebuilt packages from Rockchip that
  provides a RK3328 camera support.
 
-Package: task-rk3328
+Package: task-rk3328-vendor
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
          task-rk3328-camera,
          libmali-utgard-450-r7p0-x11 | libmali-utgard-450-r7p0-x11-gbm,
+         ${misc:Depends},
+Description: Metapackages for common RK3328 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3328
+Architecture: all
+Priority: optional
+Depends: radxa-system-config-common,
          ${misc:Depends},
 Description: Metapackages for common RK3328 vendor packages
  This package provides prebuilt packages from Rockchip that
