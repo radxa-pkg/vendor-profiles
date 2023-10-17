@@ -117,6 +117,7 @@ Depends: rockchip-udev,
          task-rockchip-sound,
          task-rockchip-v4l,
          task-rockchip-xorg,
+         radxa-system-config-rockchip,
          ${misc:Depends},
 Description: Metapackages for common Rockchip vendor packages
  This package provides prebuilt packages from Rockchip that
@@ -125,7 +126,8 @@ Description: Metapackages for common Rockchip vendor packages
 Package: task-rk3308
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends},
+Depends: radxa-system-config-common,
+         ${misc:Depends},
 Description: Metapackages for common rk3308 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -222,7 +224,8 @@ Description: Metapackages for common RK3588 vendor packages
 Package: task-amlogic
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends},
+Depends: radxa-system-config-amlogic,
+         ${misc:Depends},
 Description: Metapackages for common Amlogic vendor packages
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
