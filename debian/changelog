@@ -1,3 +1,13 @@
+vendor-profiles (0.3.3) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add radxa-system-config denepdency
+  * Add vendor-free task-rk3328 as new default
+  * Add vendor repo pinning
+  * Fix build
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 17 Oct 2023 10:10:15 +0000
+
 vendor-profiles (0.3.2) jammy; urgency=medium
 
   [ dependabot[bot] ]
