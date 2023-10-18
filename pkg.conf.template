@@ -1,42 +1,12 @@
 {
   "*": {
     "Releases": [
-      "rockchip-buster",
-      "rockchip-buster-test",
-      "rockchip-bullseye",
-      "rockchip-bullseye-test",
-      "rockchip-bookworm",
-      "rockchip-bookworm-test"
-    ]
-  },
-  "task-amlogic_VERSION_all.deb": {
-    "Releases": [
-      "amlogic-buster",
-      "amlogic-buster-test",
-      "amlogic-bullseye",
-      "amlogic-bullseye-test",
-      "amlogic-bookworm",
-      "amlogic-bookworm-test"
-    ]
-  },
-  "task-radxa-zero_VERSION_all.deb": {
-    "Releases": [
-      "amlogic-buster",
-      "amlogic-buster-test",
-      "amlogic-bullseye",
-      "amlogic-bullseye-test",
-      "amlogic-bookworm",
-      "amlogic-bookworm-test"
-    ]
-  },
-  "task-radxa-zero2_VERSION_all.deb": {
-    "Releases": [
-      "amlogic-buster",
-      "amlogic-buster-test",
-      "amlogic-bullseye",
-      "amlogic-bullseye-test",
-      "amlogic-bookworm",
-      "amlogic-bookworm-test"
+      "buster",
+      "buster-test",
+      "bullseye",
+      "bullseye-test",
+      "bookworm",
+      "bookworm-test"
     ]
   }
 }
