@@ -1,3 +1,10 @@
+vendor-profiles (0.3.5) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * radxa-system-config-common is now provided with base system
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 19 Oct 2023 03:20:35 +0000
+
 vendor-profiles (0.3.4) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
