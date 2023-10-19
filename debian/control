@@ -127,8 +127,7 @@ Description: Metapackages for common Rockchip vendor packages
 Package: task-rk3308
 Architecture: all
 Priority: optional
-Depends: radxa-system-config-common,
-         ${misc:Depends},
+Depends: ${misc:Depends},
 Description: Metapackages for common rk3308 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -157,8 +156,7 @@ Description: Metapackages for common RK3328 vendor packages
 Package: task-rk3328
 Architecture: all
 Priority: optional
-Depends: radxa-system-config-common,
-         ${misc:Depends},
+Depends: ${misc:Depends},
 Description: Metapackages for common RK3328 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
