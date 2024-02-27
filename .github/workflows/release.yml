@@ -75,7 +75,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_commitish: main
           draft: false
-          fail_on_unmatched_files: true
+          fail_on_unmatched_files: false
           files: |
             *.deb
             pkg.conf
