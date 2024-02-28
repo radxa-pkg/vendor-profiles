@@ -32,22 +32,25 @@ Description: Metapackages for Rockchip DRM
 Package: task-rockchip-gstreamer
 Architecture: all
 Priority: optional
-Depends: gir1.2-gst-plugins-bad-1.0,
+Depends: git1.2-cheese-3.0,
+         gir1.2-gst-plugins-bad-1.0,
          gir1.2-gst-plugins-base-1.0,
          gir1.2-gstreamer-1.0,
          gstreamer1.0-alsa,
          gstreamer1.0-gl,
          gstreamer1.0-gtk3,
-         gstreamer1.0-libav,
          gstreamer1.0-opencv,
+         gstreamer1.0-plugins-bad-apps,
          gstreamer1.0-plugins-bad,
          gstreamer1.0-plugins-base-apps,
          gstreamer1.0-plugins-base,
          gstreamer1.0-plugins-good,
-         gstreamer1.0-plugins-ugly,
          gstreamer1.0-pulseaudio,
          gstreamer1.0-qt5,
+         gstreamer1.0-qt6,
+         gstreamer1.0-rockchip1,
          gstreamer1.0-tools,
+         gstreamer1.0-wpe,
          gstreamer1.0-x,
          libgstreamer-gl1.0-0,
          libgstreamer-opencv1.0-0,
@@ -98,7 +101,8 @@ Description: Metapackages for Rockchip Video4Linux
 Package: task-rockchip-xorg
 Architecture: all
 Priority: optional
-Depends: xserver-xorg-core,
+Depends: xserver-common,
+         xserver-xorg-core,
          xserver-xorg-legacy,
          radxa-xorg-wrapper,
          radxa-touchscreen-utils,
@@ -106,6 +110,18 @@ Depends: xserver-xorg-core,
          ${misc:Depends},
 Description: Metapackages for Rockchip X.Org
  This package provides Rockchip X.Org.
+
+Package: task-rockchip-wayland
+Architecture: all
+Priority: optional
+Depends: libwayland-bin,
+         libwayland-client0,
+         libwayland-cursor0,
+         libwayland-egl1,
+         libwayland-server0,
+         ${misc:Depends},
+Description: Metapackages for Rockchip Wayland
+ This package provides Rockchip Wayland.
 
 Package: task-rockchip
 Architecture: all
@@ -198,7 +214,7 @@ Architecture: all
 Priority: optional
 Depends: task-rockchip,
          task-rk3562-camera,
-         libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
+         libmali-bifrost-g52-g13p0-x11-gbm,
          rknpu2-rk356x,
          python3-rknnlite2,
          ${misc:Depends},
@@ -221,7 +237,7 @@ Architecture: all
 Priority: optional
 Depends: task-rockchip,
          task-rk356x-camera,
-         libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
+         libmali-bifrost-g52-g13p0-x11-gbm,
          rknpu2-rk356x,
          python3-rknnlite2,
          ${misc:Depends},
@@ -244,7 +260,7 @@ Architecture: all
 Priority: optional
 Depends: task-rockchip,
          task-rk3588-camera,
-         libmali-valhall-g610-g6p0-x11 | libmali-valhall-g610-g6p0-x11-gbm,
+         libmali-valhall-g610-g13p0-x11-gbm,
          rknpu2-rk3588,
          python3-rknnlite2,
          ${misc:Depends},
