@@ -140,7 +140,7 @@ Depends: rkisp-engine,
          ${misc:Depends},
 Description: Metapackages for RK3328 camera packages
  This package provides prebuilt packages from Rockchip that
- provides a RK3328 camera support.
+ provides RK3328 camera support.
 
 Package: task-rk3328-vendor
 Architecture: all
@@ -169,7 +169,7 @@ Depends: rkisp-engine,
          ${misc:Depends},
 Description: Metapackages for RK3399 camera packages
  This package provides prebuilt packages from Rockchip that
- provides a RK3399 camera support.
+ provides RK3399 camera support.
 
 Package: task-rk3399
 Architecture: all
@@ -191,7 +191,7 @@ Depends: camera-engine-rkaiq,
          ${misc:Depends},
 Description: Metapackages for RK356X camera packages
  This package provides prebuilt packages from Rockchip that
- provides a RK356X camera support.
+ provides RK356X camera support.
 
 Package: task-rk356x
 Architecture: all
@@ -202,7 +202,7 @@ Depends: task-rockchip,
          rknpu2-rk356x,
          python3-rknnlite2,
          ${misc:Depends},
-Description: Metapackages for common RK356x vendor packages
+Description: Metapackages for common RK356X vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
@@ -214,7 +214,7 @@ Depends: camera-engine-rkaiq,
          ${misc:Depends},
 Description: Metapackages for RK3588 camera packages
  This package provides prebuilt packages from Rockchip that
- provides a RK3588 camera support.
+ provides RK3588 camera support.
 
 Package: task-rk3588
 Architecture: all
