@@ -186,7 +186,7 @@ Description: Metapackages for common RK3399 vendor packages
 Package: task-rk356x-camera
 Architecture: all
 Priority: optional
-Depends: camera-engine-rkaiq,
+Depends: camera-engine-rkaiq-rk3568,
          rockchip-iqfiles-rk356x,
          ${misc:Depends},
 Description: Metapackages for RK356X camera packages
@@ -209,7 +209,7 @@ Description: Metapackages for common RK356X vendor packages
 Package: task-rk3588-camera
 Architecture: all
 Priority: optional
-Depends: camera-engine-rkaiq,
+Depends: camera-engine-rkaiq-rk3588,
          rockchip-iqfiles,
          ${misc:Depends},
 Description: Metapackages for RK3588 camera packages
