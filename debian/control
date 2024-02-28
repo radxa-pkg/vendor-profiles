@@ -183,6 +183,29 @@ Description: Metapackages for common RK3399 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-rk3562-camera
+Architecture: all
+Priority: optional
+Depends: camera-engine-rkaiq-rk3562,
+         rockchip-iqfiles-rk356x,
+         ${misc:Depends},
+Description: Metapackages for RK3562 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides RK3562 camera support.
+
+Package: task-rk3562
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         task-rk3562-camera,
+         libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
+         rknpu2-rk356x,
+         python3-rknnlite2,
+         ${misc:Depends},
+Description: Metapackages for common RK3562 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-rk356x-camera
 Architecture: all
 Priority: optional
