@@ -1,3 +1,18 @@
+vendor-profiles (0.4.0) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/download-artifact from 3 to 4
+  * Bump actions/upload-artifact from 3 to 4
+
+  [ ZHANG Yuntian ]
+  * Remove distribution restriction
+  * Fix typo
+  * Update RKAIQ package dependency
+  * Add task-rk3562
+  * Update packages according to Rockchip 6.1 SDK
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 28 Feb 2024 17:17:14 +0800
+
 vendor-profiles (0.3.5) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
