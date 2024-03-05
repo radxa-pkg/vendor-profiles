@@ -1,3 +1,10 @@
+vendor-profiles (0.4.1) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: correct typos and replace packages that are not part of rkr1
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 05 Mar 2024 12:17:21 +0000
+
 vendor-profiles (0.4.0) jammy; urgency=medium
 
   [ dependabot[bot] ]
