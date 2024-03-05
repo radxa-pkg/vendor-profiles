@@ -24,7 +24,7 @@ Package: task-rockchip-drm
 Architecture: all
 Priority: optional
 Depends: libdrm-cursor,
-         libkms1,
+         libdrm2,
          ${misc:Depends},
 Description: Metapackages for Rockchip DRM
  This package provides Rockchip DRM.
@@ -32,7 +32,7 @@ Description: Metapackages for Rockchip DRM
 Package: task-rockchip-gstreamer
 Architecture: all
 Priority: optional
-Depends: git1.2-cheese-3.0,
+Depends: gir1.2-cheese-3.0,
          gir1.2-gst-plugins-bad-1.0,
          gir1.2-gst-plugins-base-1.0,
          gir1.2-gstreamer-1.0,
