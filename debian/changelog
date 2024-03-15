@@ -1,3 +1,11 @@
+vendor-profiles (0.3.7) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: update release workflow to allow publishing from all branches
+  * fix: update artifact location
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 15 Mar 2024 04:01:23 +0000
+
 vendor-profiles (0.3.6) jammy; urgency=medium
 
   [ dependabot[bot] ]
