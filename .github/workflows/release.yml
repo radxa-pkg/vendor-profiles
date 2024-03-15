@@ -81,7 +81,7 @@ jobs:
           draft: false
           fail_on_unmatched_files: false
           files: |
-            *.deb
+            .artifacts/**/*.deb
             pkg.conf
             VERSION
       - name: Append changelog
