@@ -1,3 +1,15 @@
+vendor-profiles (0.4.2) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump softprops/action-gh-release from 1 to 2
+
+  [ ZHANG Yuntian ]
+  * refactor: add system config dependency to vendor packages
+  * fix: update rk356x's package description to reflect support limits
+  * chore: update rockchip-iqfiles dependency
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 16 Apr 2024 10:04:54 +0000
+
 vendor-profiles (0.4.1) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
