@@ -230,9 +230,9 @@ Priority: optional
 Depends: camera-engine-rkaiq-rk3568,
          rockchip-iqfiles-rk356x,
          ${misc:Depends},
-Description: Metapackages for RK356X camera packages
+Description: Metapackages for RK3566/8 camera packages
  This package provides prebuilt packages from Rockchip that
- provides RK356X camera support.
+ provides RK3566/8 camera support.
 
 Package: task-rk356x
 Architecture: all
@@ -243,7 +243,7 @@ Depends: task-rockchip,
          rknpu2-rk356x,
          python3-rknnlite2,
          ${misc:Depends},
-Description: Metapackages for common RK356X vendor packages
+Description: Metapackages for common RK3566/8 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
