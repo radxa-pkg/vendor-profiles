@@ -21,3 +21,11 @@ Pin-Priority: 1001
 Package: *
 Pin: release a=rockchip-bookworm
 Pin-Priority: 1001
+
+Package: *
+Pin: release a=rk3528a-bullseye-test
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rk3528a-bullseye
+Pin-Priority: 1001
