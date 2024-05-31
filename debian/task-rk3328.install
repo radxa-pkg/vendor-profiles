@@ -1,3 +1,0 @@
-#!/usr/bin/dh-exec
-
-apt/radxa-rockchip /etc/apt/preferences.d/

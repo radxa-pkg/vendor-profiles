@@ -1,3 +1,0 @@
-#!/usr/bin/dh-exec
-
-apt/radxa-amlogic /etc/apt/preferences.d/
