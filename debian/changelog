@@ -1,3 +1,12 @@
+vendor-profiles (0.4.3) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * ci: make sure tags are pulled for release detection
+  * fix: no longer pin repository
+  * feat: remove libmali requirement for RK3588
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 31 May 2024 03:34:20 +0000
+
 vendor-profiles (0.4.2) jammy; urgency=medium
 
   [ dependabot[bot] ]
