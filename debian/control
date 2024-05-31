@@ -262,7 +262,6 @@ Architecture: all
 Priority: optional
 Depends: task-rockchip,
          task-rk3588-camera,
-         libmali-valhall-g610-g13p0-x11-gbm,
          rknpu2-rk3588,
          python3-rknnlite2,
          ${misc:Depends},
