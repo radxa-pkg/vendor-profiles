@@ -1,3 +1,10 @@
+vendor-profiles (0.4.5) jammy; urgency=medium
+
+  [ CodeChenL ]
+  * fix: add Depends version control to task-rk*-camera
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 12 Jun 2024 07:56:35 +0000
+
 vendor-profiles (0.4.4) jammy; urgency=medium
 
   [ CodeChenL ]
