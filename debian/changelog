@@ -1,3 +1,10 @@
+vendor-profiles (0.4.6) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: add missing rk3588 repos
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 03 Jul 2024 02:55:54 +0000
+
 vendor-profiles (0.4.5) jammy; urgency=medium
 
   [ CodeChenL ]
