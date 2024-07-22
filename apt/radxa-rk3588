@@ -29,3 +29,36 @@ Pin-Priority: 1001
 Package: *v4l*
 Pin: release a=rk3588-bookworm-test
 Pin-Priority: 1001
+
+# v4l2src is part of gstreamer1.0-plugins-good
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3582-bookworm
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3582-bookworm-test
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3588s-bookworm
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3588s-bookworm-test
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3588s2-bookworm
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3588s2-bookworm-test
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3588-bookworm
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3588-bookworm-test
+Pin-Priority: 1001
