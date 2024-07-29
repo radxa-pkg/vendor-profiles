@@ -146,6 +146,7 @@ Package: task-rk3328-vendor
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
          task-rk3328-camera,
          libmali-utgard-450-r7p0-x11 | libmali-utgard-450-r7p0-x11-gbm,
          ${misc:Depends},
@@ -175,6 +176,7 @@ Package: task-rk3399
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
          task-rk3399-camera,
          libmali-midgard-t86x-r18p0-x11 | libmali-midgard-t86x-r18p0-x11-gbm,
          radxa-system-config-rk3399,
@@ -217,6 +219,7 @@ Package: task-rk3562
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
          task-rk3562-camera,
          libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
          rknpu2-rk356x,
@@ -240,6 +243,7 @@ Package: task-rk356x
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
          task-rk356x-camera,
          libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
          rknpu2-rk356x,
@@ -263,6 +267,7 @@ Package: task-rk3588
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
          task-rk3588-camera,
          libmali-valhall-g610-g6p0-x11 | libmali-valhall-g610-g6p0-x11-gbm,
          rknpu2-rk3588,
