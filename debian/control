@@ -189,6 +189,7 @@ Package: task-rk3528
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-exa,
          libmali-utgard-450-r7p0-x11 | libmali-utgard-450-r7p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK3528 vendor packages
@@ -199,6 +200,7 @@ Package: task-rk3528a
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip-exa,
          libmali-utgard-450-r7p0-x11 | libmali-utgard-450-r7p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK3528A vendor packages
