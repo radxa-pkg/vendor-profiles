@@ -1,3 +1,14 @@
+vendor-profiles (0.3.8) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * feat: add rk3528a support
+  * ci: fix release detection issue
+  * ci: need to export outputs
+  * fix: add new xorg config package
+  * fix: use exa for rk3528
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 31 Jul 2024 09:29:54 +0000
+
 vendor-profiles (0.3.7) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
