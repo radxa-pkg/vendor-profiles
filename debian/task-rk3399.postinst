@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+case $1 in
+    configure)
+        if [ -f /etc/apt/preferences.d/librga2 ]; then
+            echo "Removing librga2 preference file"
+            rm /etc/apt/preferences.d/librga2
+        fi
+        ;;
+esac
+
+exit 0
