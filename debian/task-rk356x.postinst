@@ -3,12 +3,9 @@ set -e
 
 action="$1"
 
-if [ "$action" = configure ]; then
-	cat << EOF > /etc/apt/preferences.d/librga2
-Package: librga2
-Pin: version 2.1.0-1
-Pin-Priority: 1500
-EOF
+if [ "$action" = configure ] && [ -f /etc/apt/preferences.d/librga2 ]; then
+	echo "Removing /etc/apt/preferences.d/librga2"
+	rm /etc/apt/preferences.d/librga2
 fi
 
 #DEBHELPER#
