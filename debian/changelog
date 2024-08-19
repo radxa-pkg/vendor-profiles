@@ -1,3 +1,16 @@
+vendor-profiles (0.4.7) jammy; urgency=medium
+
+  [ CodeChenL ]
+  * feat: RK3588: pin gstreamer1.0-plugins-good to radxa repo
+
+  [ ZHANG Yuntian ]
+  * fix: add new xorg config package
+
+  [ CodeChenL ]
+  * fix: unpin librga2
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 19 Aug 2024 07:08:42 +0000
+
 vendor-profiles (0.4.6) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
