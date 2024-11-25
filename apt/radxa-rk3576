@@ -1,0 +1,16 @@
+Package: *v4l*
+Pin: release a=rk3576-bookworm
+Pin-Priority: 1001
+
+Package: *v4l*
+Pin: release a=rk3576-bookworm-test
+Pin-Priority: 1001
+
+# v4l2src is part of gstreamer1.0-plugins-good
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3576-bookworm
+Pin-Priority: 1001
+
+Package: gstreamer1.0-plugins-good
+Pin: release a=rk3576-bookworm-test
+Pin-Priority: 1001

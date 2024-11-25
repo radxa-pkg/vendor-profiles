@@ -40,17 +40,13 @@ Depends: gir1.2-cheese-3.0,
          gstreamer1.0-gl,
          gstreamer1.0-gtk3,
          gstreamer1.0-opencv,
-         gstreamer1.0-plugins-bad-apps,
          gstreamer1.0-plugins-bad,
          gstreamer1.0-plugins-base-apps,
          gstreamer1.0-plugins-base,
          gstreamer1.0-plugins-good,
          gstreamer1.0-pulseaudio,
-         gstreamer1.0-qt5,
-         gstreamer1.0-qt6,
          gstreamer1.0-rockchip1,
          gstreamer1.0-tools,
-         gstreamer1.0-wpe,
          gstreamer1.0-x,
          libgstreamer-gl1.0-0,
          libgstreamer-opencv1.0-0,
@@ -58,7 +54,11 @@ Depends: gir1.2-cheese-3.0,
          libgstreamer-plugins-base1.0-0,
          libgstreamer1.0-0,
          ${misc:Depends},
-Recommends: gstreamer1.0-plugins-bad-apps,
+Recommends: gir1.2-wp,
+            gstreamer1.0-plugins-bad-apps,
+            gstreamer1.0-plugins-ugly,
+            gstreamer1.0-qt5,
+            gstreamer1.0-qt6,
             gstreamer1.0-wpe,
 Description: Metapackages for Rockchip GStreamer
  This package provides Rockchip GStreamer.
@@ -248,6 +248,29 @@ Depends: task-rockchip,
          python3-rknnlite2,
          ${misc:Depends},
 Description: Metapackages for common RK3566/8 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3576-camera
+Architecture: all
+Priority: optional
+Depends: camera-engine-rkaiq-rk3576,
+         rockchip-iqfiles-rk3576,
+         ${misc:Depends},
+Description: Metapackages for RK3576 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides RK3576 camera support.
+
+Package: task-rk3576
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
+         task-rk3576-camera,
+         rknpu2-rk3588,
+         python3-rknnlite2,
+         ${misc:Depends},
+Description: Metapackages for common RK3576 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
