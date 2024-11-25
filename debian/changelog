@@ -1,3 +1,11 @@
+vendor-profiles (0.4.8) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * feat: add task-rk3576
+  * fix: sync CI template
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 25 Nov 2024 08:28:41 +0000
+
 vendor-profiles (0.4.7) jammy; urgency=medium
 
   [ CodeChenL ]
