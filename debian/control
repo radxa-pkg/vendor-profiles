@@ -269,7 +269,7 @@ Depends: task-rockchip,
          task-rk3576-camera,
          rknpu2-rk3588,
          python3-rknnlite2,
-         task-panfrost,
+         task-upstream-mesa,
          ${misc:Depends},
 Description: Metapackages for common RK3576 vendor packages
  This package provides prebuilt packages from Rockchip that
@@ -293,7 +293,7 @@ Depends: task-rockchip,
          task-rk3588-camera,
          rknpu2-rk3588,
          python3-rknnlite2,
-         task-panfrost,
+         task-upstream-mesa,
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
  This package provides prebuilt packages from Rockchip that
@@ -308,7 +308,7 @@ Description: Metapackages for common Amlogic vendor packages
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
 
-Package: task-panfrost
+Package: task-upstream-mesa
 Architecture: all
 Priority: optional
 Depends: libegl-mesa0 (>> 24.2),
@@ -316,6 +316,6 @@ Depends: libegl-mesa0 (>> 24.2),
          libglapi-mesa (>> 24.2),
          libglx-mesa0 (>> 24.2),
          ${misc:Depends},
-Description: Metapackages for Panfrost userspace drivers packages
- This package provides prebuilt packages from Amlogic that
+Description: Metapackages for GPU userspace drivers packages
+ This package provides prebuilt packages from upstream that
  provides a more optimized user experience.
