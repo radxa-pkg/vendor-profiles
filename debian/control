@@ -203,6 +203,16 @@ Description: Metapackages for common RK3399 vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-rk3528
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         radxa-system-config-rockchip-glamor,
+         ${misc:Depends},
+Description: Metapackages for common rk3528 vendor packages
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-rk3562-camera
 Architecture: all
 Priority: optional
