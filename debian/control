@@ -194,6 +194,7 @@ Package: task-rk3399
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
+         radxa-system-config-rockchip,
          radxa-system-config-rockchip-glamor,
          task-rk3399-camera,
          libmali-midgard-t86x-r18p0-x11 | libmali-midgard-t86x-r18p0-x11-gbm,
