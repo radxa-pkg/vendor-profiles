@@ -183,7 +183,7 @@ Description: Metapackages for common RK3328 vendor packages
 Package: task-rk3399-camera
 Architecture: all
 Priority: optional
-Depends: rkisp-engine,
+Depends: rkisp-engine | camera-engine-rkisp,
          rockchip-iqfiles-rk3399,
          ${misc:Depends},
 Description: Metapackages for RK3399 camera packages
