@@ -1,3 +1,4 @@
+# chromium requires rockchip v4l2 packages to support rkmpp
 Package: *v4l*
 Pin: release a=rk3576-bookworm
 Pin-Priority: 1001

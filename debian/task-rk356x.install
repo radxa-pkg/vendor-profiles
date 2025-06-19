@@ -1,0 +1,3 @@
+#!/usr/bin/env dh-exec
+
+apt/radxa-rk356x => /etc/apt/preferences.d/radxa-rk356x
