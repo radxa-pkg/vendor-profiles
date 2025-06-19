@@ -1,0 +1,2 @@
+# We have to adjust repo priority to properly install vendor packages
+task-rk356x: package-installs-apt-preferences
