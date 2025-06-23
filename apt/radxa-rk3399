@@ -1,0 +1,29 @@
+# chromium requires rockchip v4l2 packages to support rkmpp
+Package: *v4l*
+Pin: release a=rk3399-bookworm
+Pin-Priority: 1001
+
+Package: *v4l*
+Pin: release a=rk3399-bookworm-test
+Pin-Priority: 1001
+
+Package: *v4l*
+Pin: release a=op1-bookworm
+Pin-Priority: 1001
+
+Package: *v4l*
+Pin: release a=op1-bookworm-test
+Pin-Priority: 1001
+
+Package: *v4l*
+Pin: release a=rk3399t-bookworm
+Pin-Priority: 1001
+
+Package: *v4l*
+Pin: release a=rk3399t-bookworm-test
+Pin-Priority: 1001
+
+# v4l2src is part of gstreamer1.0-plugins-good
+Package: gstreamer1.0-plugins-good
+Pin: release a=stable
+Pin-Priority: 1001
