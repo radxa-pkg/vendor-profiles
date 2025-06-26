@@ -1,3 +1,16 @@
+vendor-profiles (0.4.12) noble; urgency=medium
+
+  [ Zhaoming Luo ]
+  * task-rk3399-camera: add an alternative name for rkisp-engine
+  * fix: rk3399: remove dependency libmali
+  * feat: add pin file radxa-rk3399
+
+  [ Jiali Chen ]
+  * fix: add comments for *v4l* pin
+  * feat: add pin file `radxa-rk356x`
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 26 Jun 2025 03:07:12 +0000
+
 vendor-profiles (0.4.11) noble; urgency=medium
 
   [ Chen Jiali ]
