@@ -17,5 +17,5 @@ Pin-Priority: 1001
 
 # v4l2src is part of gstreamer1.0-plugins-good
 Package: gstreamer1.0-plugins-good
-Pin: release a=stable
+Pin: release o=Debian, l=Debian
 Pin-Priority: 1001
