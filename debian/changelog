@@ -1,3 +1,10 @@
+vendor-profiles (0.4.13) noble; urgency=medium
+
+  [ Zhaoming Luo ]
+  * fix: update gstreamer1.0-plugins-good apt config
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 14 Aug 2025 03:37:25 +0000
+
 vendor-profiles (0.4.12) noble; urgency=medium
 
   [ Zhaoming Luo ]
