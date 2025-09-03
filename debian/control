@@ -309,6 +309,7 @@ Package: task-amlogic
 Architecture: all
 Priority: optional
 Depends: radxa-system-config-amlogic,
+         radxa-system-config-disable-sleep,
          ${misc:Depends},
 Description: Metapackages for common Amlogic vendor packages
  This package provides prebuilt packages from Amlogic that
