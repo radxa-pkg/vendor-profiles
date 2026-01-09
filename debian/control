@@ -314,3 +314,22 @@ Depends: radxa-system-config-amlogic,
 Description: Metapackages for common Amlogic vendor packages
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
+
+Package: task-a311d
+Architecture: all
+Priority: optional
+Depends: task-amlogic,
+         irqbalance,
+         ${misc:Depends},
+Description: Metapackages for common A311D vendor packages
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.
+
+Package: task-s905y2
+Architecture: all
+Priority: optional
+Depends: task-amlogic,
+         ${misc:Depends},
+Description: Metapackages for common S905Y2 vendor packages
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.
