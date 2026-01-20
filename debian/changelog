@@ -1,3 +1,12 @@
+vendor-profiles (0.4.15) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: clean some leftover files
+  * fix: SOURCE is no longer produced
+  * feat: add Amlogic SoC packages
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 20 Jan 2026 06:10:03 +0000
+
 vendor-profiles (0.4.14) noble; urgency=medium
 
   [ Guoguo ]
