@@ -12,7 +12,7 @@ Build-Depends: debhelper (>=12~),
 Package: task-rockchip-chromium
 Architecture: all
 Priority: optional
-Depends: chromium-x11,
+Depends: chromium-ozone-wayland | chromium-x11,
          libc++1,
          rockchip-chromium-x11-utils,
          ${misc:Depends},
@@ -39,7 +39,6 @@ Depends: gir1.2-cheese-3.0,
          gstreamer1.0-alsa,
          gstreamer1.0-gl,
          gstreamer1.0-gtk3,
-         gstreamer1.0-opencv,
          gstreamer1.0-plugins-bad,
          gstreamer1.0-plugins-base-apps,
          gstreamer1.0-plugins-base,
@@ -49,17 +48,18 @@ Depends: gir1.2-cheese-3.0,
          gstreamer1.0-tools,
          gstreamer1.0-x,
          libgstreamer-gl1.0-0,
-         libgstreamer-opencv1.0-0,
          libgstreamer-plugins-bad1.0-0,
          libgstreamer-plugins-base1.0-0,
          libgstreamer1.0-0,
          ${misc:Depends},
 Recommends: gir1.2-wp,
+            gstreamer1.0-opencv,
             gstreamer1.0-plugins-bad-apps,
             gstreamer1.0-plugins-ugly,
             gstreamer1.0-qt5,
             gstreamer1.0-qt6,
             gstreamer1.0-wpe,
+            libgstreamer-opencv1.0-0,
 Description: Metapackages for Rockchip GStreamer
  This package provides Rockchip GStreamer.
 
@@ -144,6 +144,7 @@ Package: task-rk3308
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
+         task-rockchip-sound,
          ${misc:Depends},
 Description: Metapackages for common rk3308 vendor packages
  This package provides prebuilt packages from Rockchip that
